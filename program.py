@@ -36,7 +36,7 @@ def blink_morse_code(name):
             time.sleep(0.8)
 
 root = tk.Tk()
-root.title("Name to Morse Code LED Blinker")
+root.title("Name to Morse Code")
 
 def start_blinking():
     name = entry.get()
