@@ -18,8 +18,8 @@ GPIO.setup(LED_PIN, GPIO.OUT)
 
 def blink_morse_code(name):
     for char in name.upper():
-        if char in morse_code_dict:
-            morse_code = morse_code_dict[char]
+        if char in morse_dictionary:
+            morse_code = morse_dictionary[char]
             for symbol in morse_code:
                 if symbol == '.':
                     GPIO.output(LED_PIN, GPIO.HIGH)
