@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 import time
 
-morse_code_dict = {
+morse_dictionary = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.',
     'F': '..-.', 'G': '--.', 'H': '....', 'I': '..', 'J': '.---',
     'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---',
